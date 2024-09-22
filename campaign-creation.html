@@ -188,6 +188,14 @@
 </section>
 <!------ campaign-creation-area-end --------->
 
+<script>
+  document.getElementById('campaignForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Form submitted successfully!');
+    // You can handle actual form submission logic here, such as sending data to a server
+  });
+</script>
+
 <!-- scroll-to-top-area-start -->
 <section id="scroll-top">
   <div id="stop" class="scrollTop">
